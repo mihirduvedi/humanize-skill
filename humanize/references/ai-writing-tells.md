@@ -50,6 +50,16 @@ matters" or just cut it and state the fact.
 - **Compulsive hedging / throat-clearing:** "It's important to note that," "It's worth
   mentioning," "One could argue" — padding that delays the actual point. Cut it and start
   with the point.
+- **Section-ending caveats:** a finding followed by a routine limiting turn such as
+  “These observations support X, but they do not establish Y,” “This suggests X.
+  However, it cannot show Y,” or a closing sentence beginning “But…” that adds a
+  concern. Repeating this at the end of paragraphs or sections makes the prose sound
+  formulaic. Check across sentences as well as within a single “but” clause; replacing
+  “but” with “although,” “however,” or “nevertheless” leaves the same pattern intact.
+  Remove generic or repeated caveats. When a limitation is necessary for accuracy or
+  required by the assignment, state it once where it matters, such as the calculation
+  section or the claim that depends on it, and keep the finding appropriately scoped.
+  Do not invent a concern to sound balanced or remove an essential qualification.
 - **Formatting overkill:** excessive bold on "key terms," over-nested bullet lists, a
   heading for every paragraph. Humans format only where it aids scanning, not everywhere.
 - **Forced sentence rhythm:** a flat sequence can need reshaping, but adding a short

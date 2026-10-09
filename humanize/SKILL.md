@@ -179,6 +179,10 @@ While rewriting, keep these principles in mind:
      naturally or use labeled fields unless the user's style guide requires separators.
      When the task includes UI files and the necessary tools are available, also check
      rendered text, CSS-generated content, accessible names and copy exports.
+   - Do paragraphs or sections repeatedly end with a finding followed by “but,”
+     “however,” “although,” or a separate sentence about what it cannot establish?
+     Cut generic or repeated closing caveats and put necessary limitations where they
+     directly affect the claim. Do not add a concern merely to finish the section.
    - Any stock "punchy" phrases standing in for real emphasis?
    - Any "not just X, it's Y" / "didn't just X, we Y" / "no X, no Y, just Z" construction?
    - Would a comma and a suitable conjunction connect these clauses more naturally than
