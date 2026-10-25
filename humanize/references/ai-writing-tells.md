@@ -7,34 +7,30 @@ paraphrasing, and expanded advice on cadence, punctuation, and preserving meanin
 This adaptation is distributed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 Use this as an editorial reference, not a detection test or a find-and-replace list.
-The vocabulary groupings are historical examples rather than a verified current ranking.
+These patterns are not known detector weights or proof of human authorship. The current
+revision replaces unsupported vocabulary timelines with source-scoped research and
+clarifies that punctuation and rhetorical preferences are editorial choices.
 The current user's demonstrated preferences take precedence over generic pattern advice;
 see `editing-patterns.md` for illustrative examples of connected analytical prose.
 
-## 1. AI vocabulary (era-sensitive — check which words are currently "hot")
+## 1. Vocabulary in context
 
-Words become overused in waves as models change. Don't blindly ban a word; notice when
-several of these *cluster together* in one passage — that clustering is the real tell.
+Kobak et al. (2025) documented aggregate increases in stylistic vocabulary in biomedical
+abstracts, including forms of delve, underscore, and showcase. The study does not tell
+us whether a particular sentence is AI-written or what a commercial detector weighs.
+Its source and scope are recorded in [detector-research.md](detector-research.md).
 
-- **2023–mid 2024 era:** delve, boasts, bolstered, crucial, emphasizing, enduring, garner,
-  intricate/intricacies, interplay, key, landscape, meticulous/meticulously, pivotal,
-  underscore, tapestry, testament, valuable, vibrant, additionally
-- **Mid 2024–mid 2025 era:** align with, bolstered, crucial, emphasizing, enhance, enduring,
-  fostering, highlighting, pivotal, showcasing, underscore, vibrant
-- **Mid 2025 examples:** emphasizing, enhance, highlighting, showcasing — plus a general drift
-  toward subtler positivity rather than blatant superlatives ("the best")
-- **Other perennials across eras:** harness, illuminate, facilitate, realm, beacon,
-  cacophony, robust, comprehensive, multifaceted, nuanced, holistic, seamless, elevate
-
-When humanizing, replace these with the plain, specific word a person would actually reach
-for — not a different fancy synonym. "Underscores the importance of" → "shows why X
-matters" or just cut it and state the fact.
+Examine clusters of promotional or imprecise words such as groundbreaking, seamless,
+transformative, multifaceted, robust, or pivotal. Keep a term when it names a real
+technical property or carries a useful meaning. Do not replace ordinary words such as
+findings or potential simply because they also occur frequently in model output.
+Cut an empty claim rather than making it sound different with a fancy synonym.
 
 ## 2. Structural and rhetorical tics
 
 - **Rule of three:** reflexively listing exactly three adjectives or examples
-  ("innovative, transformative, and groundbreaking"). Humans vary list length. Break the
-  triplet — use one strong word, or two, or a real list of four+ specifics.
+  ("innovative, transformative, and groundbreaking"). Keep a useful list of three;
+  remove filler added solely to complete a pattern.
 - **Negative parallelism:** "It's not X, it's Y." ("It's not a product launch — it's a
   paradigm shift.") Overused for false gravitas. Cut or state the point directly.
 - **False ranges:** "From intimate gatherings to global movements" — implies a spectrum
@@ -72,8 +68,8 @@ matters" or just cut it and state the fact.
 - **Puffery / inflated significance:** every fact gets framed as a watershed moment, a key
   turning point, a testament to something larger. Most facts are just facts. Let them be.
 - **Em dash overuse:** dashes used for parenthetical punch in places a person would use a
-  comma, conjunction, colon, parentheses, or just a period. This is one of the single most
-  recognizable AI tells, so treat the em dash as a last resort, not a default. Before using
+  comma, conjunction, colon, parentheses, or just a period. Restrained dash use is an
+  editorial preference, not an established detector rule. Follow the author's style. Before using
   one, try: a period (two sentences instead of one), a comma, a colon (if what follows
   explains or lists what came before), parentheses, or restructuring the sentence so the
   aside isn't needed at all. Only reach for the em dash when none of those actually work —
@@ -90,7 +86,7 @@ matters" or just cut it and state the fact.
   connective in almost every paragraph. Vary with "but," "though," "even so," or just two
   separate sentences.
 - **Contrastive negation / parallel antithesis (the "not just X, it's Y" family):** this is
-  one of the most flagged AI patterns going, and it's broader than the classic "It's not X,
+  a frequently formulaic rhetorical pattern, broader than the classic "It's not X,
   it's Y." It also shows up as "We didn't just X, we Y," "Not only did we X, but Y," and
   "No X, no Y, just Z." The tell isn't the idea of contrast — it's the reflex to state the
   negative before the positive as a rhetorical flourish, especially paired with a semicolon
@@ -230,4 +226,5 @@ single sentence.
   redesign serves as a testament to the team's dedication."
 - After: "We rebuilt the whole user journey."
 
-For illustrative before-and-after edits, see `editing-patterns.md`.
+For connected prose, see [editing-patterns.md](editing-patterns.md). For 24 paired edits,
+paragraph revisions, and dated academic excerpts, see [worked-examples.md](worked-examples.md).

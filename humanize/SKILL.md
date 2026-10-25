@@ -1,14 +1,15 @@
 ---
 name: humanize
-description: Rewrite text to sound natural and human while preserving its meaning, evidence, sophistication, and audience-appropriate register. Use when the user asks to humanize text, remove an AI voice, make prose less robotic, or revise a previous assistant response. Recognize /humanize and $humanize where supported, as well as ordinary language requests.
+description: Revise prose to sound natural and appropriate to its writer and audience while preserving its argument, facts, quotations, citations, and sophistication. Use for humanize, /humanize, $humanize, requests to sound less like AI, and revisions prompted by detector concerns. Includes sourced detector research and worked examples without promising a detector result. Follow the requested output format.
 license: CC-BY-SA-4.0
 ---
 
 # Humanize
 
-This skill rewrites text to remove the telltale fingerprints of AI-generated prose —
-without simplifying the content or diluting its sophistication. The goal is prose an
-attentive human reader wouldn't flag as machine-written, not a dumbed-down summary.
+Edit for a reader, using the writer's actual choices and the purpose of the piece.
+A draft can avoid conspicuous buzzwords and still sound generic because it keeps
+announcing its argument instead of making it. Fix that writing problem before changing
+individual words. Naturalness is an editorial judgment, not proof of authorship.
 
 ## Using this skill in any assistant
 
@@ -17,6 +18,42 @@ plugin, command syntax, filesystem layout, or tool API. Use them as a discovered
 project instructions, or context supplied by the user. Read the bundled references when
 available; in a chat-only environment, use the reference content supplied in the chat.
 Do not claim to have read a file or used a capability you cannot access.
+
+## Reference routing
+
+- Read [worked-examples.md](references/worked-examples.md) for 24 paired edits,
+  two paragraph revisions, and two dated academic excerpts. Constructed revisions are
+  editing demonstrations, not verified human writing or detector test results.
+- For GPTZero, scores, perplexity, burstiness, or bypass requests, read
+  [detector-research.md](references/detector-research.md).
+- For Turnitin, Pangram, Originality.ai, Sapling, Copyleaks, or public scoring
+  reconstruction, read [detector-methods.md](references/detector-methods.md).
+- Use [ai-writing-tells.md](references/ai-writing-tells.md) for editorial diagnosis and
+  [editing-patterns.md](references/editing-patterns.md) for connected prose. Follow the
+  current author's demonstrated preferences when they differ from these examples.
+
+Ordinary copyediting does not require detector research. If browsing is unavailable,
+work from supplied sources and identify any product claims that need verification.
+
+## Detector concerns
+
+Research public methods when requested, distinguishing statistical detectors, trained
+classifiers, provider claims, and independent benchmarks. Public documentation can
+explain an approach without exposing its weights or decision boundary. Highlights do
+not reveal proprietary phrase weights. Verify version-sensitive claims before use.
+
+Do not promise "undetectable," "passes a detector," or "human-written" status after
+editing. Report only tests actually performed, with the exact text, product, date or
+version, and configuration. Synthetic arithmetic examples are not live detector tests.
+Do not add errors, false anecdotes, invisible characters, homoglyphs, or damaged
+citations to alter a score. A word blacklist or sentence-length target is not a reliable
+account of the commercial systems documented in the references.
+
+If the user supplies scores or highlights, inspect the passage for actual writing
+problems and preserve what works. Mentioning a detector does not by itself authorize
+uploading a draft to it. Follow the user's existing authorization and applicable account,
+privacy, cost, and tool constraints for real tests. Keep detector commentary out of the
+revised text unless requested.
 
 ## When this triggers
 
@@ -108,8 +145,20 @@ calls for separators; this default is not a universal test of AI authorship. See
 
 ## Step 3: Apply the humanization
 
+First revise the argument. In a literature review, connect studies through shared claims,
+different measures, or different outcomes. Avoid repeating a summary, relevance
+announcement, and closing caveat for every source. Replace vague statements such as
+"This distinction is especially useful" with the distinction and its consequence.
+Keep signposting when it helps the reader follow a difficult turn.
+
+Do not invent personal experiences, opinions, observations, interviews, or reading history
+to create a voice. Keep exact quotations, their locators, numbers, comparison groups,
+dates, and meaningful qualifications. Identify hypotheses and interpretations. Do not
+convert an association into a cause or a nonsignificant result into proof of no effect.
+A hypothetical example must remain identifiable as hypothetical.
+
 Read `references/ai-writing-tells.md` for the full catalog before editing — it covers
-overused AI vocabulary (by era, since this drifts as models change), structural tics like
+vocabulary in context, structural tics like
 rule-of-three lists, tailing clauses, compulsive summaries and hedges, false ranges,
 negative parallelism, promotional puffery, and em-dash overuse, plus before/after examples.
 
@@ -149,8 +198,8 @@ While rewriting, keep these principles in mind:
    sentence fragments crammed in everywhere. A human professional writing to another
    professional still writes clean, polished prose — it just doesn't sound like a press
    release. Match the register from Step 2, not a generic "casual" voice.
-7. **Treat the em dash as a last resort.** It's one of the single most recognizable AI
-   tells, so don't reach for it by default. For each one, first try a period, a comma, a
+7. **Use em dashes deliberately.** Restraint is an editorial default, not an established
+   detector rule; follow the author's style. For each one, first try a period, a comma, a
    colon, parentheses, or restructuring the sentence so the aside isn't needed. Use it only
    when none of those genuinely work as well — a real interruption or sharp pivot that a
    period would flatten. If the rewrite has more than one em dash in a few paragraphs,
@@ -228,6 +277,9 @@ While rewriting, keep these principles in mind:
 
 - Follow the user's requested format. If they ask for the rewrite in chat, return it
   directly. If they ask to edit a particular file, update that file when you can access it.
+- If they request Word or another editable document, preserve its required formatting
+  and inspect the rendered result when the host supports it. Keep research notes and
+  change explanations separate from the text they will copy or submit.
 - Otherwise, when file creation is available, create a Markdown (`.md`) file containing
   **only the humanized text**. Use the user's requested destination or the environment's
   normal artifact location; do not assume a particular directory exists. Present the
@@ -240,9 +292,9 @@ While rewriting, keep these principles in mind:
 
 ## Notes on staying current
 
-The vocabulary examples in `references/ai-writing-tells.md` are historical editorial
-cues, not a live ranking or a definitive authorship test. If a passage does not match
-those words but still feels stiff or oddly uniform, assess the structural patterns and
-read-aloud flow. If browsing is available and current vocabulary evidence matters to the
-request, consult a current source before making time-sensitive claims. Otherwise work
-from the supplied text and references without implying that external research occurred.
+For research requests, prefer current primary studies and official documentation to
+unsourced lists of alleged AI phrases. Group-level vocabulary patterns do not prove the
+origin of an individual document or reveal a universal blacklist. The research references
+record their check date. Verify updated product behavior when it would affect the answer,
+and distinguish provider evaluations from independent tests. Work from supplied material
+when browsing is unavailable without implying that external research occurred.

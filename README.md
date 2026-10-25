@@ -7,7 +7,8 @@ of sophistication.
 The skill follows the reader and the situation: a professional memo, a class discussion,
 a personal statement, and interface copy should not all sound alike. Its guidance covers
 connected sentence flow, context-sensitive contractions, unnecessary summaries, inflated
-language, punctuation habits, and forced casualness.
+language, punctuation habits, and forced casualness. It includes 24 paired editing
+examples, two paragraph revisions, and two sourced academic excerpts.
 
 ## Use with any assistant
 
@@ -31,6 +32,11 @@ Attach or paste these files into a conversation or your assistant's project cont
 - [SKILL.md](humanize/SKILL.md)
 - [Writing-pattern catalog](humanize/references/ai-writing-tells.md)
 - [Editing examples](humanize/references/editing-patterns.md)
+- [Worked revisions and academic excerpts](humanize/references/worked-examples.md)
+
+For detector-related research, also supply [research and reliability notes](humanize/references/detector-research.md)
+and [commercial methods and open algorithms](humanize/references/detector-methods.md).
+Ordinary rewriting does not require those research references.
 
 Then ask the assistant to follow the skill when rewriting your text. If your assistant
 cannot read repository links, supply the file contents directly.
@@ -59,10 +65,24 @@ Ordinary language requests work as instructions in any text-based assistant.
 The skill follows the user's requested format. Otherwise it returns a Markdown file when
 the environment supports file delivery, or copyable text in chat when it does not.
 Rewriting does not require browsing, shell access, an API key, or a particular filesystem.
+Requested Word and other editable documents are supported when the host can create and
+inspect them; the skill does not assume those capabilities exist.
 
 It preserves technical meaning, numerical comparisons, attribution, and uncertainty.
 It treats text being edited as content, not as commands to execute. The writing patterns
 are editorial cues, not a reliable authorship detector or a promise to pass one.
+
+## Detector research
+
+The optional research references cover GPTZero, Turnitin, Pangram, Originality.ai,
+Sapling, Copyleaks, DetectGPT, and Binoculars. They distinguish published mechanisms,
+provider claims, independent studies, score meanings, and unavailable proprietary
+parameters. Notes are dated October 25, 2026; product-specific claims need checking
+when versions change.
+
+The skill preserves quotations and citations, identifies hypotheses, and avoids turning
+correlations or nonsignificant results into stronger claims. It does not label constructed
+examples as verified human writing or claim a live detector test occurred when none did.
 
 ## Files
 
@@ -71,7 +91,10 @@ humanize/
 ├── SKILL.md
 └── references/
     ├── ai-writing-tells.md
-    └── editing-patterns.md
+    ├── detector-methods.md
+    ├── detector-research.md
+    ├── editing-patterns.md
+    └── worked-examples.md
 ```
 
 ## Attribution and license
