@@ -9,6 +9,8 @@ a personal statement, and interface copy should not all sound alike. Its guidanc
 connected sentence flow, context-sensitive contractions, unnecessary summaries, inflated
 language, punctuation habits, and forced casualness. It includes 24 paired editing
 examples, two paragraph revisions, and two sourced academic excerpts.
+The sentence-flow reference adds eight worked choices for joining explanations,
+deleting empty commentary, and keeping useful pauses.
 
 ## Use with any assistant
 
@@ -33,10 +35,13 @@ Attach or paste these files into a conversation or your assistant's project cont
 - [Writing-pattern catalog](humanize/references/ai-writing-tells.md)
 - [Editing examples](humanize/references/editing-patterns.md)
 - [Worked revisions and academic excerpts](humanize/references/worked-examples.md)
+- [Sentence flow and conjunction choices](humanize/references/sentence-flow.md)
 
 For detector-related research, also supply [research and reliability notes](humanize/references/detector-research.md)
 and [commercial methods and open algorithms](humanize/references/detector-methods.md).
 Ordinary rewriting does not require those research references.
+For deeper experiments, use [detector engineering](humanize/references/detector-engineering.md)
+and the [revision evaluation workflow](humanize/references/revision-evaluation.md).
 
 Then ask the assistant to follow the skill when rewriting your text. If your assistant
 cannot read repository links, supply the file contents directly.
@@ -84,6 +89,13 @@ The skill preserves quotations and citations, identifies hypotheses, and avoids 
 correlations or nonsignificant results into stronger claims. It does not label constructed
 examples as verified human writing or claim a live detector test occurred when none did.
 
+An optional [local research lab](research/README.md) trains two lightweight detectors on
+hash-pinned public HC3 data, separates question groups across development and testing,
+and reports domain shifts, text-length changes and twelve provenance-labeled rewrite
+probes. Both local models were run; results are included. This does not fine-tune the
+assistant's weights or establish a commercial detector pass rate, and the writing skill
+does not require the lab or its dependencies.
+
 ## Files
 
 ```text
@@ -93,7 +105,10 @@ humanize/
     ├── ai-writing-tells.md
     ├── detector-methods.md
     ├── detector-research.md
+    ├── detector-engineering.md
     ├── editing-patterns.md
+    ├── revision-evaluation.md
+    ├── sentence-flow.md
     └── worked-examples.md
 ```
 

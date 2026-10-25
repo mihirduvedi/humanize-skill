@@ -62,6 +62,10 @@ Cut an empty claim rather than making it sound different with a fancy synonym.
   sentence or fragment purely to create variety can make the paragraph more mechanical.
   Keep explanations and their qualifications connected. Let sentence lengths follow the
   ideas; retain a short sentence when it introduces or completes a distinct thought.
+  A detached explanation often belongs with the sentence before it. Choose a conjunction
+  that expresses the supplied relationship, or delete the explanation if it adds nothing.
+  See [sentence-flow.md](sentence-flow.md); neither chopping nor joining sentences is a
+  reliable detector strategy.
 - **Promotional / travel-brochure tone:** creeping praise-language even in neutral
   contexts — "rich cultural heritage," "breathtaking," "must-see," "stunning," "enduring
   legacy." Strip the adjectives that aren't doing factual work.

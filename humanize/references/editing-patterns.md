@@ -107,6 +107,12 @@ attribution and uncertainty in the same way.
 
 ## Keep short sentences that earn their place
 
+Prefer connecting an explanation or qualification to the thought it supports when
+that improves the flow. Choose "because" or "as" for a supplied reason, "so" or "and
+therefore" for a supported consequence, and "and" for addition. Delete empty commentary
+instead of preserving it under a conjunction. Do not invent causation or combine every
+sentence into a long chain. See [sentence-flow.md](sentence-flow.md) for worked choices.
+
 Keep a sentence such as "ARR gives us an early test" when it introduces the paragraph
 and gives the reader a useful point of entry. Separate sentences can also serve different
 valuation scenarios whose conditions deserve distinct treatment.

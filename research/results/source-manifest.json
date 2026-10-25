@@ -1,0 +1,228 @@
+[
+  {
+    "id": "survey-2025",
+    "url": "https://aclanthology.org/2025.cl-1.8.pdf",
+    "bytes": 1354260,
+    "sha256": "ba6efc4b58f18fe37f88bf335af2d183595abf61081bd42299f972078e50ee7a",
+    "pages": 64,
+    "checked_date": "2026-10-25",
+    "inspection": "taxonomy and statistical/neural method sections; selected evaluation discussion",
+    "executed": false
+  },
+  {
+    "id": "gltr",
+    "url": "https://aclanthology.org/P19-3019.pdf",
+    "bytes": 1789674,
+    "sha256": "a808b16b86d96866f16fb8635055a84d8fb3b629f6644197f720f75a20dd88fd",
+    "pages": 6,
+    "checked_date": "2026-10-25",
+    "inspection": "methods and visualization sections",
+    "executed": false
+  },
+  {
+    "id": "detectgpt",
+    "url": "https://proceedings.mlr.press/v202/mitchell23a/mitchell23a.pdf",
+    "bytes": 1940994,
+    "sha256": "9308930c0fe31b344c6fd017ea327696b185158b3b517c9d8631f0581a9d0081",
+    "pages": 13,
+    "checked_date": "2026-10-25",
+    "inspection": "curvature hypothesis and detection method",
+    "executed": false
+  },
+  {
+    "id": "fast-detectgpt",
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/6b8c6f846c3575e1d1ad496abea28826-Paper-Conference.pdf",
+    "bytes": 791784,
+    "sha256": "e00241cde24c72ad20494e243b62fa0fec2df14809468920f0d851adaf64fb2d",
+    "pages": 23,
+    "checked_date": "2026-10-25",
+    "inspection": "method equations and evaluation setup",
+    "executed": false
+  },
+  {
+    "id": "ghostbuster",
+    "url": "https://aclanthology.org/2024.naacl-long.95.pdf",
+    "bytes": 1013970,
+    "sha256": "96e86d271a1a49b86612425b51f1423743bd195fd05b7bcf3fddb71530cb0708",
+    "pages": 16,
+    "checked_date": "2026-10-25",
+    "inspection": "dataset design, feature search and classifier training",
+    "executed": false
+  },
+  {
+    "id": "m4gt",
+    "url": "https://aclanthology.org/2024.acl-long.218.pdf",
+    "bytes": 345450,
+    "sha256": "4f09d991e5aac3a87513046003d19846256d2490ab82e183c74e5841b21db45d",
+    "pages": 29,
+    "checked_date": "2026-10-25",
+    "inspection": "task definitions and domain-generalization experiments",
+    "executed": false
+  },
+  {
+    "id": "detectrl",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/b61bdf7e9f64c04ec75a26e781e2ad51-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "bytes": 1167612,
+    "sha256": "c0a3c95939834c306460d9115aa8168c1fc78b52d0bb5dc516097974369cd79b",
+    "pages": 33,
+    "checked_date": "2026-10-25",
+    "inspection": "tasks, metrics and domain/length evaluations",
+    "executed": false
+  },
+  {
+    "id": "watermark",
+    "url": "https://proceedings.mlr.press/v202/kirchenbauer23a/kirchenbauer23a.pdf",
+    "bytes": 1270372,
+    "sha256": "192bbc0d3929b72b7b6962c84614c82006bf4687e09c2e544f7790eac7eab5bb",
+    "pages": 24,
+    "checked_date": "2026-10-25",
+    "inspection": "generation/detection method; implementation inspected separately",
+    "executed": false
+  },
+  {
+    "id": "nist",
+    "url": "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=959907",
+    "bytes": 2877797,
+    "sha256": "94d25a6dec8ba0bed4896ed367a0c6eb240b3c824e52a240ea57da2388e24e9a",
+    "pages": 55,
+    "checked_date": "2026-10-25",
+    "inspection": "metrics and scope/limitations slides",
+    "executed": false
+  },
+  {
+    "id": "reliability-theory",
+    "url": "https://arxiv.org/html/2303.11156v4",
+    "bytes": 627927,
+    "sha256": "2d059b0103f259cbe5d476e6fccca209cd301276af27c36f5c50d38aebb9ab0a",
+    "checked_date": "2026-10-25",
+    "inspection": "distribution-distance result and experimental scope",
+    "executed": false
+  },
+  {
+    "id": "hc3-modelcard",
+    "url": "https://huggingface.co/Hello-SimpleAI/chatgpt-detector-roberta/raw/d2b342c61775d5dd0221808a79983ed3b86ffd86/README.md",
+    "bytes": 1325,
+    "sha256": "cfe39d6909fc28e5b052f246aee702dfaf5537130ad8a939d5b88f76319aafa9",
+    "checked_date": "2026-10-25",
+    "inspection": "model card, primary documentation, or source code inspected; see ID and URL",
+    "executed": false
+  },
+  {
+    "id": "legacy-modelcard",
+    "url": "https://huggingface.co/openai-community/roberta-base-openai-detector/raw/main/README.md",
+    "bytes": 9751,
+    "sha256": "4134857b7cb949c670781aa1382e2a5938e5b5ff0b9e2259ac33167cef4d9bf2",
+    "checked_date": "2026-10-25",
+    "inspection": "model card, primary documentation, or source code inspected; see ID and URL",
+    "executed": false
+  },
+  {
+    "id": "fast-code",
+    "url": "https://raw.githubusercontent.com/baoguangsheng/fast-detect-gpt/971b05202bac2bb504d60c0ac0812fea7a8f7c82/scripts/fast_detect_gpt.py",
+    "bytes": 8096,
+    "sha256": "70fcdafca0182a4e5f9773d82f435cf06610f291bca60ff726ef0d2ff255a929",
+    "checked_date": "2026-10-25",
+    "inspection": "model card, primary documentation, or source code inspected; see ID and URL",
+    "executed": false
+  },
+  {
+    "id": "ghostbuster-classify",
+    "url": "https://raw.githubusercontent.com/vivek3141/ghostbuster/f60068d006b7dc617af90e7148118837e85d0555/classify.py",
+    "bytes": 2874,
+    "sha256": "1b5b1cdba97dec225d51b3296e9025955150ee64e618dac27fb4647169cfdf5a",
+    "checked_date": "2026-10-25",
+    "inspection": "model card, primary documentation, or source code inspected; see ID and URL",
+    "executed": false
+  },
+  {
+    "id": "ghostbuster-train",
+    "url": "https://raw.githubusercontent.com/vivek3141/ghostbuster/f60068d006b7dc617af90e7148118837e85d0555/train.py",
+    "bytes": 10900,
+    "sha256": "94c8f6cb761afe0a5986c4e8d1e63724e17f42810b41f0b148428259224315fb",
+    "checked_date": "2026-10-25",
+    "inspection": "model card, primary documentation, or source code inspected; see ID and URL",
+    "executed": false
+  },
+  {
+    "id": "watermark-code",
+    "url": "https://raw.githubusercontent.com/jwkirchenbauer/lm-watermarking/82922516930c02f8aa322765defdb5863d07a00e/extended_watermark_processor.py",
+    "bytes": 29156,
+    "sha256": "a07b845b5f483c4e12123f6b51dcb2f327b5c01e6a30899febd4fc71fd6b30bc",
+    "checked_date": "2026-10-25",
+    "inspection": "model card, primary documentation, or source code inspected; see ID and URL",
+    "executed": false
+  },
+  {
+    "id": "gptzero-4o",
+    "url": "https://gptzero.me/news/introducing-gptzero-4o",
+    "bytes": 274176,
+    "sha256": "2ed6a3be609ec624656e3aa88b69e19dcb7c06382d2e7d01a401421ef6bde10f",
+    "checked_date": "2026-10-25",
+    "inspection": "model card, primary documentation, or source code inspected; see ID and URL",
+    "executed": false
+  },
+  {
+    "id": "arb-2026",
+    "url": "https://arxiv.org/html/2607.29539v1",
+    "bytes": 362362,
+    "sha256": "91fd4caa2db9b7b7820f6a8746f0b2813ee7fd5539179d6018f81d0451c6a8f1",
+    "checked_date": "2026-10-25",
+    "inspection": "matched design, evaluation and limitations",
+    "executed": false
+  },
+  {
+    "id": "synthid",
+    "url": "https://www.nature.com/articles/s41586-024-08025-4",
+    "bytes": 433093,
+    "sha256": "7679a75b9ad40f292cc51a5e9547692febee9793f16daf2232b9fc1d09c54312",
+    "checked_date": "2026-10-25",
+    "inspection": "tournament sampling and watermark-detection sections",
+    "executed": false
+  },
+  {
+    "id": "claude-watermark",
+    "url": "https://www.anthropic.com/news/claude-text-watermark",
+    "bytes": 212858,
+    "sha256": "9890ca84179dda21f5231ba0d00314f58de552ace7e488e4ed39d65edcc55658",
+    "checked_date": "2026-10-25",
+    "inspection": "model card, primary documentation, or source code inspected; see ID and URL",
+    "executed": false
+  },
+  {
+    "id": "flow-transitions",
+    "url": "https://writing.wisc.edu/handbook/grammarandstyle/transitions/",
+    "bytes": 264238,
+    "sha256": "570affb0ac7274b41bc3b3a651ecaae8aa029daa5dda702dc2d8557be1f3f121",
+    "checked_date": "2026-10-25",
+    "inspection": "model card, primary documentation, or source code inspected; see ID and URL",
+    "executed": false
+  },
+  {
+    "id": "flow-clarity",
+    "url": "https://owl.purdue.edu/owl/general_writing/mechanics/sentence_clarity.html",
+    "bytes": 35647,
+    "sha256": "2d2026c03dadbfca9991f88eb0fa0c93e8d9cde93fcb5a1577e960089868ebf2",
+    "checked_date": "2026-10-25",
+    "inspection": "model card, primary documentation, or source code inspected; see ID and URL",
+    "executed": false
+  },
+  {
+    "id": "nber",
+    "url": "https://www.nber.org/system/files/working_papers/w34223/w34223.pdf",
+    "pages": 46,
+    "bytes": 686631,
+    "sha256": "dcc0b9e62a0b404f03d4ef6d1bc938a888a6cbe2fa5097d3821dc13fee363c6e",
+    "checked_date": "2026-10-25",
+    "inspection": "audit design, thresholds and humanizer tests",
+    "executed": false
+  },
+  {
+    "id": "gptzero-patterns",
+    "url": "https://gptzero.me/news/ai-patterns",
+    "bytes": 194820,
+    "sha256": "db1a8f1e079f0db6987a256f024270d3ba2f49f027d79c5246d62741834e0e0b",
+    "checked_date": "2026-10-25",
+    "inspection": "model card, primary documentation, or source code inspected; see ID and URL",
+    "executed": false
+  }
+]

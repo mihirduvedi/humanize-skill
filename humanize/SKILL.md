@@ -28,6 +28,9 @@ Do not claim to have read a file or used a capability you cannot access.
   [detector-research.md](references/detector-research.md).
 - For Turnitin, Pangram, Originality.ai, Sapling, Copyleaks, or public scoring
   reconstruction, read [detector-methods.md](references/detector-methods.md).
+- For building or evaluating a detector, read [detector-engineering.md](references/detector-engineering.md).
+  For sustained skill improvement or experiments, read [revision-evaluation.md](references/revision-evaluation.md).
+- For choppy prose and conjunction choices, read [sentence-flow.md](references/sentence-flow.md).
 - Use [ai-writing-tells.md](references/ai-writing-tells.md) for editorial diagnosis and
   [editing-patterns.md](references/editing-patterns.md) for connected prose. Follow the
   current author's demonstrated preferences when they differ from these examples.
@@ -151,6 +154,13 @@ announcement, and closing caveat for every source. Replace vague statements such
 "This distinction is especially useful" with the distinction and its consequence.
 Keep signposting when it helps the reader follow a difficult turn.
 
+At a short sentence that explains or qualifies the previous one, first try joining the
+thoughts with an accurate connection: "because" or "as" for a supplied reason, "so" or
+"and therefore" for a supported consequence, and "and" for addition. Delete an empty
+comment such as "This is important" instead of attaching it. Keep a real topic change
+or useful emphasis separate, and break a sentence before it becomes a chain of clauses.
+Do not turn a correlation into a cause to make the connection sound smoother.
+
 Do not invent personal experiences, opinions, observations, interviews, or reading history
 to create a voice. Keep exact quotations, their locators, numbers, comparison groups,
 dates, and meaningful qualifications. Identify hypotheses and interpretations. Do not
@@ -182,7 +192,7 @@ While rewriting, keep these principles in mind:
    sentence it belongs to. Delete empty tailing clauses instead of turning them into
    detached mini-sentences. Move the real point ahead of throat-clearing when that makes
    the argument easier to follow.
-4. **Let the thought determine the sentence length.** Read the paragraph as a connected
+4. **Connect dependent thoughts instead of manufacturing short beats.** Read the paragraph as a connected
    argument. A brief clarification or qualification can feel abrupt when isolated between
    longer sentences, so join it to the thought it explains when the connection is clear.
    Use ordinary conjunctions deliberately: "and" for addition, "but" for contrast,
@@ -191,6 +201,8 @@ While rewriting, keep these principles in mind:
    introduces a topic, makes a distinct point or deserves a pause. Never insert one just
    to create variety, chase "burstiness" or make word choices less predictable. Avoid the
    opposite problem too: a long chain of "and," "as" and "so" clauses can need a break.
+   "Therefore" alone is not a coordinating conjunction: use "and therefore" with an
+   appropriate clause structure rather than joining independent clauses with a comma.
 5. **Cut, don't just swap.** Many AI tics (compulsive summaries, hedges, tailing clauses,
    false ranges) aren't fixed by finding a more human synonym — they're fixed by deleting
    the sentence or clause entirely because it wasn't adding information.
@@ -240,6 +252,8 @@ While rewriting, keep these principles in mind:
      "was," or "has"?
    - Does a short sentence interrupt a thought that should continue into the next clause?
      Would joining it improve the read-aloud flow without creating a run-on?
+   - Does a detached "This means…," "This matters…," or similar explanation belong
+     with the claim before it? Join the useful content, or delete it if it adds nothing.
    - Does each sentence boundary mark a useful pause? Similar sentence lengths are fine
      when the passage reads naturally; do not force variation.
    - Do conjunctions express the actual relationship, without inventing causation or
@@ -256,6 +270,8 @@ While rewriting, keep these principles in mind:
    - Did the edit preserve technical meaning, numerical comparisons, time periods,
      attribution, uncertainty and essential qualifications? Smooth an awkward qualifier
      into the argument rather than silently dropping it.
+   - Did a smoother explanation add a plausible but unsupplied premise? Preserve exact
+     protected strings, including punctuation, even when that requires a different sentence.
    - Zoom out and scan the whole passage for *which devices got used where* — not just
      within each sentence. If an em dash shows up in paragraph one, a colon-list in
      paragraph two, and a short punchy sentence in paragraph three, that's one flourish

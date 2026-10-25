@@ -1,0 +1,165 @@
+[
+  {
+    "id": "explanation",
+    "provenance": "assistant-generated before and after; fictional accounting example",
+    "before": "The chart excludes refunds. This is important. It shows what customers originally paid. We should explain that distinction in the caption so readers do not confuse the original payments with the amount the business retained.",
+    "after": "The chart excludes refunds, so it shows what customers originally paid. We should explain that distinction in the caption so readers do not confuse the original payments with the amount the business retained.",
+    "editorial_target": "Join the consequence and delete the empty importance announcement.",
+    "must_preserve": [
+      "excludes refunds",
+      "originally paid",
+      "caption"
+    ],
+    "join": true
+  },
+  {
+    "id": "because",
+    "provenance": "assistant-generated before and after; fictional software example",
+    "before": "We kept the old cache format. There was a reason for this. Older clients still read it. Changing the format during this release would therefore require us to update those clients before they could retrieve their saved settings.",
+    "after": "We kept the old cache format because older clients still read it, and changing the format during this release would require us to update those clients before they could retrieve their saved settings.",
+    "editorial_target": "Connect the decision to its supplied reason without a detached setup sentence.",
+    "must_preserve": [
+      "old cache format",
+      "older clients",
+      "saved settings"
+    ],
+    "join": true
+  },
+  {
+    "id": "qualification",
+    "provenance": "assistant-generated before and after; fictional survey example",
+    "before": "The survey recorded intentions. This matters. It did not record appointments. We should describe the outcome as willingness to seek help and avoid claiming that the survey measured whether participants actually visited a counselor.",
+    "after": "The survey recorded intentions rather than appointments, so we should describe the outcome as willingness to seek help and avoid claiming that it measured whether participants actually visited a counselor.",
+    "editorial_target": "Keep the measurement qualification beside the consequence it supports.",
+    "must_preserve": [
+      "intentions",
+      "appointments",
+      "willingness",
+      "counselor"
+    ],
+    "join": true
+  },
+  {
+    "id": "addition_not_cause",
+    "provenance": "assistant-generated before and after; fictional observational example",
+    "before": "Attendance increased in April. Donations increased too. The records do not establish a connection between the changes, and we have not examined whether the weather, publicity, or another event affected either result.",
+    "after": "Attendance and donations both increased in April, although the records do not establish a connection between the changes, and we have not examined whether the weather, publicity, or another event affected either result.",
+    "editorial_target": "Combine related observations without claiming one caused the other.",
+    "must_preserve": [
+      "April",
+      "do not establish a connection",
+      "weather",
+      "publicity"
+    ],
+    "join": true
+  },
+  {
+    "id": "therefore_grammar",
+    "provenance": "assistant-generated before and after; fictional storage example",
+    "before": "The export is larger than the upload limit. It cannot be attached. We need to compress the images before sending the report through the portal, while keeping enough resolution for reviewers to read the labels.",
+    "after": "The export is larger than the upload limit and therefore cannot be attached, so we need to compress the images before sending the report through the portal while keeping enough resolution for reviewers to read the labels.",
+    "editorial_target": "Use 'and therefore' grammatically; do not splice independent clauses with ', therefore'.",
+    "must_preserve": [
+      "upload limit",
+      "compress the images",
+      "portal",
+      "read the labels"
+    ],
+    "join": true
+  },
+  {
+    "id": "as_explanation",
+    "provenance": "assistant-generated before and after; fictional scheduling example",
+    "before": "I can send the draft on Thursday. That timing works. The team reviews submissions on Friday. Please send any missing figures by Wednesday afternoon so I have time to place them and check the page breaks.",
+    "after": "I can send the draft on Thursday, as the team reviews submissions on Friday. Please send any missing figures by Wednesday afternoon so I have time to place them and check the page breaks.",
+    "editorial_target": "Connect timing to its reason and remove the approval filler.",
+    "must_preserve": [
+      "Thursday",
+      "Friday",
+      "Wednesday afternoon",
+      "page breaks"
+    ],
+    "join": true
+  },
+  {
+    "id": "preserve_quote",
+    "provenance": "assistant-generated before and after; explicitly fictional quotation and locator",
+    "before": "The draft uses the phrase “saved locally” (Example, p. 4). It is specific. Readers can tell where the file goes. We should retain that wording in the button description because the current prototype does not synchronize files with a remote account.",
+    "after": "We should retain the phrase “saved locally” (Example, p. 4) in the button description because it tells readers where the file goes, and the current prototype does not synchronize files with a remote account.",
+    "editorial_target": "Connect the explanation while preserving the fictional quotation and locator exactly.",
+    "must_preserve": [
+      "“saved locally” (Example, p. 4)",
+      "does not synchronize",
+      "remote account"
+    ],
+    "join": true
+  },
+  {
+    "id": "preserve_numbers",
+    "provenance": "assistant-generated before and after; fictional dataset example",
+    "before": "The sample contains 240 responses. Only 180 are complete. This affects the denominator. We should calculate the response average from those 180 complete records and state that the other 60 were excluded because required fields were missing.",
+    "after": "Only 180 of the 240 responses are complete, so we should calculate the response average from those 180 records and state that the other 60 were excluded because required fields were missing.",
+    "editorial_target": "Integrate the denominator qualification without changing any count.",
+    "must_preserve": [
+      "180",
+      "240",
+      "60",
+      "required fields were missing"
+    ],
+    "join": true
+  },
+  {
+    "id": "keep_topic_boundary",
+    "provenance": "assistant-generated before and after; fictional software example",
+    "before": "The importer now rejects empty files. Its error message explains which column is missing. The next release will add keyboard navigation to the preview, and that work can begin once the design team supplies the focus order.",
+    "after": "The importer now rejects empty files, and its error message explains which column is missing. The next release will add keyboard navigation to the preview, and that work can begin once the design team supplies the focus order.",
+    "editorial_target": "Combine related current behavior while keeping a separate sentence for future work.",
+    "must_preserve": [
+      "rejects empty files",
+      "which column is missing",
+      "next release",
+      "focus order"
+    ],
+    "join": true
+  },
+  {
+    "id": "keep_emphasis",
+    "provenance": "assistant-generated before and after; fictional personal note",
+    "before": "I missed the deadline. I had assumed that the upload window stayed open until midnight, but the course page listed an earlier cutoff, and I should have checked it before leaving the assignment until the evening.",
+    "after": "I missed the deadline. I had assumed that the upload window stayed open until midnight, but the course page listed an earlier cutoff, and I should have checked it before leaving the assignment until the evening.",
+    "editorial_target": "Keep the short sentence because its admission has a distinct purpose.",
+    "must_preserve": [
+      "I missed the deadline.",
+      "midnight",
+      "earlier cutoff"
+    ],
+    "join": false
+  },
+  {
+    "id": "avoid_runon",
+    "provenance": "assistant-generated before and after; fictional shipping example",
+    "before": "The carrier changed the route, delaying delivery. The delivery is now due on Tuesday. The warehouse has already packed the order. Customer support needs the updated date before it replies to the buyer, who asked for a delivery estimate this morning.",
+    "after": "The delivery is now due on Tuesday because the carrier changed the route. The warehouse has already packed the order, and customer support needs the updated date before it replies to the buyer, who asked for a delivery estimate this morning.",
+    "editorial_target": "Use two connected sentences instead of combining every fact into a single chain.",
+    "must_preserve": [
+      "Tuesday",
+      "carrier changed the route",
+      "already packed",
+      "this morning"
+    ],
+    "join": true
+  },
+  {
+    "id": "delete_not_join",
+    "provenance": "assistant-generated before and after; fictional interface example",
+    "before": "The page lists each task beside its deadline. This is useful. It is worth noting. Users can sort the tasks by date or owner, and the selected order remains in place when they return to the page later.",
+    "after": "The page lists each task beside its deadline. Users can sort the tasks by date or owner, and the selected order remains in place when they return to the page later.",
+    "editorial_target": "Delete empty commentary instead of attaching it with a conjunction.",
+    "must_preserve": [
+      "each task beside its deadline",
+      "date or owner",
+      "selected order remains"
+    ],
+    "join": false
+  }
+]

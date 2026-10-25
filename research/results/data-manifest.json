@@ -1,0 +1,93 @@
+{
+  "dataset": "Hello-SimpleAI/HC3",
+  "license_as_declared_on_card": "cc-by-sa-4.0",
+  "revision": "4d0ff18143b5a7e1b1e79beb540c04549d1e59d3",
+  "files": [
+    {
+      "domain": "finance",
+      "url": "https://huggingface.co/datasets/Hello-SimpleAI/HC3/resolve/4d0ff18143b5a7e1b1e79beb540c04549d1e59d3/finance.jsonl",
+      "revision": "4d0ff18143b5a7e1b1e79beb540c04549d1e59d3",
+      "bytes": 9889186,
+      "sha256": "72e3a439714c4693e115f8ad0b917988688abc07acba8de812198cb13cd5d72e",
+      "questions": 3933,
+      "sample_keys": [
+        "question",
+        "human_answers",
+        "chatgpt_answers"
+      ],
+      "first_answer_lengths": {
+        "human_answers": [
+          237
+        ],
+        "chatgpt_answers": [
+          1139
+        ]
+      }
+    },
+    {
+      "domain": "wiki_csai",
+      "url": "https://huggingface.co/datasets/Hello-SimpleAI/HC3/resolve/4d0ff18143b5a7e1b1e79beb540c04549d1e59d3/wiki_csai.jsonl",
+      "revision": "4d0ff18143b5a7e1b1e79beb540c04549d1e59d3",
+      "bytes": 2198039,
+      "sha256": "4f78105c72e7edd3b619b3b44abac1e6f8bdb42211f22e43191d4dae889e1968",
+      "questions": 842,
+      "sample_keys": [
+        "question",
+        "human_answers",
+        "chatgpt_answers"
+      ],
+      "first_answer_lengths": {
+        "human_answers": [
+          800
+        ],
+        "chatgpt_answers": [
+          1050
+        ]
+      }
+    },
+    {
+      "domain": "medicine",
+      "url": "https://huggingface.co/datasets/Hello-SimpleAI/HC3/resolve/4d0ff18143b5a7e1b1e79beb540c04549d1e59d3/medicine.jsonl",
+      "revision": "4d0ff18143b5a7e1b1e79beb540c04549d1e59d3",
+      "bytes": 2683640,
+      "sha256": "7141b0f5b3477543e95e24a2b268f46c375b08703a390e9a04ff69f5193caa28",
+      "questions": 1248,
+      "sample_keys": [
+        "question",
+        "human_answers",
+        "chatgpt_answers"
+      ],
+      "first_answer_lengths": {
+        "human_answers": [
+          299
+        ],
+        "chatgpt_answers": [
+          652
+        ]
+      }
+    },
+    {
+      "domain": "open_qa",
+      "url": "https://huggingface.co/datasets/Hello-SimpleAI/HC3/resolve/4d0ff18143b5a7e1b1e79beb540c04549d1e59d3/open_qa.jsonl",
+      "revision": "4d0ff18143b5a7e1b1e79beb540c04549d1e59d3",
+      "bytes": 2910828,
+      "sha256": "4d968e1e1473cbdf5978024872768f0c6f27dacf681f35166dc191733dccd664",
+      "questions": 1187,
+      "sample_keys": [
+        "question",
+        "human_answers",
+        "chatgpt_answers"
+      ],
+      "first_answer_lengths": {
+        "human_answers": [
+          1312
+        ],
+        "chatgpt_answers": [
+          1467,
+          408,
+          1082
+        ]
+      }
+    }
+  ]
+}

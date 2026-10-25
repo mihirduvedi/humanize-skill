@@ -2,15 +2,24 @@
 
 Checked October 25, 2026. These notes distinguish public evidence, provider claims, and editorial judgment. They do not establish a reliable way to obtain a particular detector result.
 
-## What current GPTZero publicly discloses
+## What GPTZero publicly discloses, by version
 
 [GPTZero's support article](https://support.gptzero.me/articles/9585228410-how-do-i-interpret-burstiness-or-perplexity) says it replaced its perplexity-and-burstiness approach in autumn 2023. Do not describe that early design as its current algorithm.
 
-The [2026 technical report](https://arxiv.org/html/2602.13042v1), sections 3.2–3.4, describes supervised document and sentence classification, a human/AI/mixed hierarchy, and training involving edited and paraphrased text. It explicitly keeps architecture and hyperparameters proprietary. Its evaluation is the provider's report, not independent verification. These disclosures do not reveal a phrase blacklist or allow exact reverse-engineering of an arbitrary prediction.
+The [February 2026 technical report](https://arxiv.org/html/2602.13042v1), sections 3.2–3.4, describes supervised document and sentence classification, a human/AI/mixed hierarchy, and training involving edited and paraphrased text. It explicitly keeps architecture and hyperparameters proprietary. Its evaluation is the provider's report, not independent verification. These disclosures do not reveal a phrase blacklist or allow exact reverse-engineering of an arbitrary prediction.
+
+The later [GPTZero 4o announcement](https://gptzero.me/news/introducing-gptzero-4o), dated October 18, 2026, says that model is the default from September 20, with changed architecture, expanded training and heading masking. It also says punctuation changes do not determine the result. Treat these as provider disclosures rather than an independently reproduced mechanism or guarantee; the February report is not a complete specification of 4o.
+
+The separate [AI Patterns feature](https://gptzero.me/news/ai-patterns) exposes a rhetorical taxonomy covering empty commentary, vague experts, inflated importance and other patterns. The provider explicitly says those patterns also occur in human writing. Pattern explanations do not disclose all classifier weights or show that removing a pattern will change a classification.
 
 [GPTZero's result guide](https://support.gptzero.me/articles/4965048546-How-do-I-interpret-a-GPTZero-result) says the AI detection score is not the percentage of AI in a document. Distinguish a class probability from a measured fraction of authorship.
 
 ## Different detectors use different methods
+
+For an engineering account, code references, model-card contamination checks, newer
+rewriting benchmarks and the optional local experiment, see
+[detector-engineering.md](detector-engineering.md). For improving the skill through
+recorded revisions, see [revision-evaluation.md](revision-evaluation.md).
 
 [Mitchell et al., DetectGPT, ICML 2023](https://proceedings.mlr.press/v202/mitchell23a.html) proposes a probability-curvature test using model likelihoods and perturbed text. This is a specific research method, not an explanation of every commercial system. A single rule about rare words, short sentences, or punctuation cannot be assumed to apply across architectures.
 
